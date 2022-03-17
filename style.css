@@ -1,6 +1,11 @@
 body{
     background-color: #05595B;
 }
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
 
 .container{
     background: #2D4263;
