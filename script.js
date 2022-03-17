@@ -1,4 +1,4 @@
     function GetRupees(){
         var dolr = document.getElementById('dollar').value;
-        document.getElementById('value').innerHTML = (dolr * 76.58);
+        document.getElementById('value').innerHTML = (dolr * 75.86);
     }
