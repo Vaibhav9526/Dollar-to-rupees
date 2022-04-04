@@ -13,5 +13,7 @@ fetch('https://api.exchangerate.host/latest')
     var A = document.getElementById('dollar').value;
     var B = A * (RealData.rates.INR);
     document.getElementById('Gtinr').innerHTML = B;
+    document.getElementById('value').innerHTML = RealData.rates.INR;
+    
 })
 }
