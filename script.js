@@ -12,8 +12,7 @@ fetch('https://api.exchangerate.host/latest')
 }).then((RealData)=> {
     var A = document.getElementById('dollar').value;
     var B = A * (RealData.rates.INR);
-    document.getElementById('value').innerHTML = B;
-    document.getElementById('Gtinr').innerHTML = `${RealData.rates.INR}`;
-    
+    document.getElementById('value').innerHTML = B;    
 })
 }
+    document.getElementById('Gtinr').innerHTML = `${RealData.rates.INR}`;
