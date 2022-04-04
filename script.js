@@ -4,7 +4,7 @@
 //     }
 
 
-function Data(){
+function GetRupees(){
 fetch('https://api.exchangerate.host/latest')
 .then((ApiData) => {
     console.log(ApiData)
